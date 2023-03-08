@@ -16,4 +16,5 @@ setup(
     name = "Hough Normal Estimator CNN",
     ext_modules = ext_modules,
     cmdclass = {'build_ext': build_ext},
+    include_dirs=[np.get_include()]
 )
